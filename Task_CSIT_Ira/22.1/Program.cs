@@ -13,7 +13,7 @@ namespace _22._1
             Console.WriteLine("Graph:");
             g.Show();
 
-            Console.WriteLine("Введите строку(номер_строки-1)");
+            Console.WriteLine("Введите строку(номер_строки-1)");//
             int v = int.Parse(Console.ReadLine());
             g.Neighbouring(v);
         }
